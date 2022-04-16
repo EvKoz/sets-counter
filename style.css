@@ -1,13 +1,36 @@
-body{
+body {
   background-color: #323131;
   color: white;
-  width: 100vw; /* попробовать использовать device width*/
+  width: 90vw; /* попробовать использовать device width*/
   height: 100vh;
-  margin: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.counter{
-  text-align: center;
-  font-size: 50vh;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+.counter {
+  margin: auto;
+  font-size: 40vh;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  /*margin: 5% auto 40%;*/
+}
 
-}
+.increment {
+  background-image: url("./vendor/add-button_4.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15em;
+  height: 15em;
+  background-color: #323131;
+  margin: 5% auto;
+  }
+
+  .clear{
+    background-image: url("./vendor/delete-buton_1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15em;
+  height: 15em;
+  background-color: #323131;
+  margin: 5% auto;
+  }
