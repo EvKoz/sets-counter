@@ -1,13 +1,13 @@
 body {
   background-color: #323131;
   color: white;
-  width: 90vw; /* попробовать использовать device width*/
-  height: 80vh;
+  width: 100vw; /* попробовать использовать device width*/
+  height: 85vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+  }
 .counter {
   margin: auto;
   font-size: 40vh;
