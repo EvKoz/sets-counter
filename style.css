@@ -1,0 +1,13 @@
+body{
+  background-color: #323131;
+  color: white;
+  width: 100vw; /* попробовать использовать device width*/
+  height: 100vh;
+  margin: 0;
+}
+.counter{
+  text-align: center;
+  font-size: 50vh;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+
+}
