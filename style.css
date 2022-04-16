@@ -16,7 +16,7 @@ body {
 }
 
 .increment {
-  background-image: url("../../dev/sets-counter/vendor/add-button_4.svg");
+  background-image: url("../../../praktikum/dev/sets-counter/vendor/add-button_4.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 15em;
@@ -26,7 +26,7 @@ body {
   }
 
   .clear{
-    background-image: url("../../dev/sets-counter/vendor/delete-buton_1.svg");
+    background-image: url("../../../praktikum/dev/sets-counter/vendor/delete-buton_1.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 15em;
