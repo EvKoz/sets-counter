@@ -23,14 +23,18 @@ body {
   height: 15em;
   background-color: #323131;
   margin: 5% auto;
-  }
+  border: none;
+  background-position: center;
+}
 
-  .clear{
-    background-image: url("./vendor/delete-buton_1.svg");
+.clear {
+  background-image: url("./vendor/delete-buton_1.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 15em;
   height: 15em;
   background-color: #323131;
   margin: 5% auto;
-  }
+  border: none;
+  background-position: center;
+}
