@@ -2,7 +2,7 @@ const counterNode = document.querySelector(".counter");
 const incrBtn = document.querySelector(".increment");
 const clearBtn = document.querySelector(".clear");
 
-let counter = 0;
+clear ();
 
 function render() {
   counterNode.textContent = counter;
